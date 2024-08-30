@@ -1,0 +1,14 @@
+.no-data {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 3rem;
+    font-size: 1.5rem;
+    font-weight: 1rem;
+}
+
+.loader {
+    width: 100px;
+    height: 100px;
+}

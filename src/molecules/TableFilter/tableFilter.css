@@ -1,0 +1,10 @@
+.table-header-left-wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 24%;
+    align-items: center;
+}
+
+.clear_text {
+    text-decoration: underline;
+}

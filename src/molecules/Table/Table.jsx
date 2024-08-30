@@ -1,9 +1,7 @@
 import { useCallback, useEffect, useState } from 'react';
 import PropTypes from 'prop-types';
 import { useTable, useGlobalFilter } from "react-table";
-import _intersection from 'lodash/intersection';
 
-import Loader from '../../assets/svg/loader.svg'
 import { countryNameFilter, populationFilter } from '../../utils/filter';
 import TableHeader from '../TableHeader';
 import './table.css';
